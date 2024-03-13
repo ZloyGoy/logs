@@ -1,0 +1,602 @@
+    1  ls
+    2  l
+    3  whoami
+    4  pwd
+    5  uname -a
+    6  sudo apt update
+    7  sudo apt upgrade -y
+    8  date
+    9  sudo dpkg-reconfigure tzdata
+   10  date
+   11  htop
+   12  version
+   13  whoami
+   14  uname -r
+   15  ls
+   16  ..
+   17  cd ..
+   18  ls
+   19  cd ..
+   20  ls
+   21  cd media/
+   22  ls
+   23  cd ..
+   24  ls
+   25  cd home
+   26  ls
+   27  cd ubuntu
+   28  s
+   29  ls
+   30  sudo lsof -i -P -n | grep LISTEN 
+   31  sudo apt install mariadb-server
+   32  sudo mysql_secure_installation
+   33  sudo systemctl status mariadb
+   34  sudo mysqladmin version
+   35  sudo apt install apache2
+   36  ls
+   37  cd ..
+   38  ls
+   39  cd var/
+   40  ls
+   41  cd www/
+   42  ls
+   43  cd html
+   44  ls
+   45  nano index.html 
+   46  touch Hello.html
+   47  sudo touch Hello.html
+   48  ls
+   49  nano Hello.html 
+   50  sudo nano Hello.html 
+   51  firefox
+   52  sudo apt-get install libapache2-mod-cgi 
+   53  ls
+   54  sudo a2enmod cgi 
+   55  sudo systemctl restart apache2
+   56  systemctl restart apache2
+   57  sudo systemctl restart apache2
+   58  sudo nano /etc/apache2/apache2.conf 
+   59  sudo systemctl restart apache2
+   60  ls
+   61  cd ..
+   62  ls
+   63  cd ..
+   64  ls
+   65  cd home/
+   66  ls
+   67  cd ubuntu/
+   68  ls
+   69  mkdir bash_scripts
+   70  ls
+   71  cd bash_scripts/
+   72  s
+   73  ls
+   74  touch info.bash
+   75  ls
+   76  touch backup.bash
+   77  ls
+   78  git
+   79  git --version
+   80  cd ..
+   81  ls
+   82  git clone git@gitlab.lnu.se:1dv721/student/ez222eq/resources.git
+   83  llss
+   84  ls
+   85  sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+   86  sudo apt install docker.io
+   87  sudo systemctl enable docker
+   88  sudo systemctl status docker
+   89  sudo systemctl start docker
+   90  sudo docker run hello-world
+   91  sudo apt install cowsay
+   92  cowsay
+   93  ls
+   94  cd bash_scripts/
+   95  ls
+   96  sudo nano info.bash 
+   97  which cowsay
+   98  cowsay "Hello World!"
+   99  ls
+  100  sudo nano info.bash 
+  101  cd ..
+  102  ls
+  103  exit
+  104  sudo apt update
+  105  ls
+  106  exit
+  107  sudo apt update
+  108  sudo apt upgrade -y
+  109  exit
+  110  whoami
+  111  ls
+  112  sudo apt update
+  113  sudo apt upgrade 
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd ..
+  118  ls
+  119  cd var/
+  120  ls
+  121  cd www/
+  122  s
+  123  ls
+  124  cd html/
+  125  ls
+  126  vim Hello.html 
+  127  sudo mv Hello.html /var/www/html/
+  128  sudo chown www-data:www-data /var/www/html/Hello.html 
+  129  sudo service apache2 restart
+  130  ls
+  131  vim Hello.html 
+  132  vim index.html 
+  133  sudo vim index.html 
+  134  ls
+  135  sudo apt uninstall apache2
+  136  ls
+  137  sudo service apache2 restart
+  138  sudo systemctl apache2 restart
+  139  sudo systemctl restart apache2
+  140  systemctl status apache2.service
+  141  sudo vi /var/www/html/.htaccess
+  142  ls
+  143  sudo vi /var/www/html/.htaccess
+  144  ls
+  145  sudo nano Hello.html 
+  146  ls
+  147  sudo nano /var/www/html/.htaccess
+  148  sudo service apache2 restart
+  149  sudo service apache2 stop
+  150  sudo service apache2 restart
+  151  sudo service apache2 stop
+  152  ls
+  153  sudo apt remove apache2
+  154  sudo apt install apache2
+  155  ls
+  156  sudo service apache2 status
+  157  sudo nano /etc/apache2/apache2.conf
+  158  sudo service apache2 restart
+  159  sudo service apache2 status
+  160  sudo nano /etc/apache2/apache2.conf
+  161  sudo service apache2 restart
+  162  ls
+  163  sudo service apache2 status
+  164  sudo nano /etc/apache2/apache2.conf
+  165  clear
+  166  sudo vi /etc/apache2/ports.conf
+  167  ls
+  168  sudo service apache2 restart
+  169  sudo vi /etc/apache2/ports.conf
+  170  sudo NANO /etc/apache2/ports.conf
+  171  sudo nano /etc/apache2/ports.conf
+  172  sudo service apache2 restart
+  173  sudo vi /etc/apache2/ports.conf
+  174  sudo vi /etc/apache2/sites-enabled/000-default.conf
+  175  sudo nano /etc/apache2/sites-enabled/000-default.conf
+  176  sudo service apache2 restart
+  177  sudo systemctl restart apache2
+  178  sudo systemctl status apache2.service
+  179  ls
+  180  nano Hello.html 
+  181  sudo nano index.html 
+  182  sudo rm index.html 
+  183  ls
+  184  sudo systemctl restart apache2
+  185  ls
+  186  sudo mv Hello.html index.html
+  187  ls
+  188  sudo systemctl restart apache2
+  189  sudo systemctl status apache2.service
+  190  sudo nano /etc/apache2/ports.conf
+  191  sudo nano /etc/apache2/sites-enabled/000-default.conf
+  192  sudo nano /etc/apache2/sites-enabled/mysite.conf
+  193  sudo systemctl restart apache2
+  194  sudo netstat -tulpn | grep apache2
+  195  cd ..
+  196  ls
+  197  cd ..
+  198  l
+  199  cd home/
+  200  cd ubuntu/
+  201  ls
+  202  cd bash_scripts/
+  203  ls
+  204  sudo nano info.bash 
+  205  ls
+  206  sudo vi info.bash 
+  207  sudo nano info.bash 
+  208  ls
+  209  chmod +x info.bash 
+  210  sudo nano info.bash 
+  211  cd ..
+  212  ls
+  213  cd ..
+  214  ls
+  215  cd var/
+  216  ls
+  217  cd www/
+  218  ls
+  219  cd ..
+  220  ls
+  221  cd lib/
+  222  ls
+  223  cd ..
+  224  ls
+  225  cd www/
+  226  ls
+  227  cd html/
+  228  sudo vim /etc/apache2/apache2.conf
+  229  ls
+  230  sudo nano /etc/apache2/apache2.conf
+  231  sudo nano /etc/apache2/sites-enabled/000-default.conf
+  232  cd /usr/lib/cgi-bin/
+  233  ls
+  234  touch info.bash
+  235  sudo touch info.bash
+  236  ls
+  237  sudo nano info.bash 
+  238  chmod +x info.bash 
+  239  sudo chmod +x info.bash 
+  240  ls
+  241  sudo nano info.bash 
+  242  sudo chmod +x info.bash 
+  243  cd ..
+  244  cd..
+  245  cd ..
+  246  ls
+  247  cd ..
+  248  ls
+  249  cd home/
+  250  ls
+  251  cd ubuntu/
+  252  ls
+  253  cd bash_scripts/
+  254  ls
+  255  sudo rm info.bash 
+  256  s
+  257  ls
+  258  sudo nano backup.bash 
+  259  ls
+  260  sudo chmod -x backup.bash 
+  261  ./backup.bash
+  262  sudo ./backup.bash
+  263  ./backup.bash
+  264  sudo ./backup.bash
+  265  sudo /backup.bash
+  266  ls
+  267  cd
+  268  ls
+  269  cd bash_scripts/
+  270  chmod +x backup.bash 
+  271  ./backup.bash 
+  272  cd
+  273  ls
+  274  cd ..
+  275  ls
+  276  cd ubuntu/
+  277  ls
+  278  cd bash_scripts/
+  279  l
+  280  sudo nano backup.bash 
+  281  chmod +x backup.bash 
+  282  ./backup.bash 
+  283  sudo nano backup.bash 
+  284  chmod +x backup.bash 
+  285  ./backup.bash 
+  286  cd
+  287  ls
+  288  cd bash_scripts/
+  289  sudo nano backup.bash 
+  290  chmod +x backup.bash 
+  291  ./backup.bash 
+  292  ls
+  293  cd ..
+  294  ls
+  295  rm backup_.tar.gz 
+  296  ls
+  297  cd bash_scripts/
+  298  ls
+  299  sudo nano backup.bash 
+  300  chmod +x backup.bash 
+  301  ./backup.bash 
+  302  ls
+  303  cd ..
+  304  ls
+  305  mkdir docker
+  306  ls
+  307  cd docker/
+  308  ls
+  309  touch Dockerfile
+  310  ls
+  311  sudo nano Dockerfile 
+  312  touch docker-compose.yaml
+  313  ls
+  314  sudo nano docker-compose.yaml 
+  315  docker-compose build
+  316  sudo apt-install docker-compose
+  317  sudo apt install docker-compose
+  318  docker-compose build
+  319  sudo docker-compose build
+  320  docker-compose up
+  321  sudo docker-compose up
+  322  ls
+  323  sudo nano Dockerfile 
+  324  sudo docker-compose build
+  325  sudo docker-compose up
+  326  ls
+  327  touch Dockerfile_web
+  328  sudo nano Dockerfile_web 
+  329  ls
+  330  touch docker-compose_web.yaml
+  331  sudo nano docker-compose_web.yaml 
+  332  sudo docker-compose -f docker-compose_web.yaml build
+  333  ls
+  334  sudo nano docker-compose_web.yaml 
+  335  sudo nano Dockerfile_web 
+  336  sudo docker-compose -f docker-compose_web.yaml build
+  337  sudo nano Dockerfile_web 
+  338  sudo docker-compose -f docker-compose_web.yaml build
+  339  sudo nano Dockerfile_web 
+  340  sudo docker-compose -f docker-compose_web.yaml build
+  341  sudo nano Dockerfile_web 
+  342  sudo docker-compose -f docker-compose_web.yaml build
+  343  ls
+  344  sudo nano docker-compose_web.yaml 
+  345  sudo docker-compose -f docker-compose_web.yaml build
+  346  sudo nano docker-compose_web.yaml 
+  347  sudo docker-compose -f docker-compose_web.yaml build
+  348  ls
+  349  sudo nano  Dockerfile_web 
+  350  sudo nano  docker-compose_web.yaml 
+  351  sudo docker-compose -f docker-compose_web.yaml build
+  352  pwd
+  353  ls
+  354  sudo mv new_info.bash info.bash
+  355  ls
+  356  sudo docker-compose -f docker-compose_web.yaml build
+  357  sudo docker-compose -f docker-compose_web.yaml up
+  358  sudo docker-compose up
+  359  sudo docker-compose -f docker-compose_web.yaml build
+  360  sudo docker-compose build
+  361  sudo docker-compose_web build
+  362  ls
+  363  sudo docker-compose build
+  364  ls
+  365  sudo docker-compose -f docker-compose_web.yaml build webserver
+  366  sudo docker-compose -f docker-compose_web.yaml up
+  367  ls
+  368  sudo nano docker-compose_web.yaml 
+  369  sudo docker-compose -f docker-compose_web.yaml up
+  370  sudo docker-compose -f docker-compose_web.yaml build
+  371  sudo docker-compose -f docker-compose_web.yaml up
+  372  mariadb
+  373  sudo mariadb
+  374  cd ..
+  375  cd..
+  376  ls
+  377  sudo service apache2 stop
+  378  sudo service apache2 status
+  379  sudo apt update
+  380  logout
+  381  ls
+  382  cd ..
+  383  ls
+  384  cd ubuntu/
+  385  s
+  386  ls
+  387  pwd
+  388  cd ..
+  389  ls
+  390  cd ..
+  391  ls
+  392  cd var/
+  393  ls
+  394  cd www/
+  395  ls
+  396  cd html/
+  397  ls
+  398  pwd
+  399  l
+  400  cd ..
+  401  cd home/
+  402  cd ubuntu/
+  403  ls
+  404  cd backup
+  405  clear
+  406  ls
+  407  cd ..
+  408  ls
+  409  cd ..
+  410  ls
+  411  cd var/
+  412  ls
+  413  cd lib/
+  414  ls
+  415  cd /usr/lib/cgi-bin/
+  416  ls
+  417  pwd
+  418  cp /usr/lib/cgi-bin/info.bash /usr/lib/cgi-bin/
+  419  ls
+  420  ls -l
+  421  cp info.bash new_info.bash
+  422  sudo cp info.bash new_info.bash
+  423  ls
+  424  pwd
+  425  mv /usr/lib/cgi-bin/new_info.bash /home/ubuntu/docker
+  426  mv /usr/lib/cgi-bin/new_info.bash /home/ubuntu/docker
+  427  sudo mv /usr/lib/cgi-bin/new_info.bash /home/ubuntu/docker
+  428  sudo lsof -i :80
+  429  sudo kill -9 76227
+  430  sudo kill -9 76226
+  431  sudo lsof -i :80
+  432  ls
+  433  clear
+  434  touch database.bash
+  435  sudo touch database.bash
+  436  ls
+  437  sudo nano database.bash 
+  438  sudo chmod +x database.bash 
+  439  ls
+  440  sudo nano database.bash 
+  441  sudo chmod +x database.bash 
+  442  sudo chmod +x database.bash 
+  443  sudo nano database.bash 
+  444  sudo chmod +x database.bash 
+  445  sudo nano database.bash 
+  446  sudo chmod +x database.bash 
+  447  sudo nano database.bash 
+  448  sudo chmod +x database.bash 
+  449  sudo nano database.bash 
+  450  sudo chmod +x database.bash 
+  451  sudo nano database.bash 
+  452  sudo chmod +x database.bash 
+  453  sudo nano database.bash 
+  454  sudo chmod +x database.bash 
+  455  sudo nano database.bash 
+  456  sudo chmod +x database.bash 
+  457  sudo nano database.bash 
+  458  mysq;
+  459  mysqll
+  460  mysql
+  461  sudo mysql
+  462  sudo chmod +x database.bash 
+  463  sudo nano database.bash 
+  464  sudo chmod +x database.bash 
+  465  sudo nano database.bash 
+  466  sudo chmod +x database.bash 
+  467  clear
+  468  sudo -mysql -u root
+  469  sudo mysql -u root
+  470  sudo mysql -u ubuntu
+  471  use mysql
+  472  sudo mysql -u root
+  473  sudo nano database.bash 
+  474  sudo chmod +x database.bash 
+  475  sudo service apache2 restart
+  476  sudo service apache2 status
+  477  ls
+  478  sudo nano database.bash 
+  479  sudo chmod +x database.bash 
+  480  sudo nano database.bash 
+  481  sudo chmod +x database.bash 
+  482  sudo nano database.bash 
+  483  sudo chmod +x database.bash 
+  484  sudo nano database.bash 
+  485  l
+  486  ls
+  487  sudo nano database.bash 
+  488  sudo chmod +x database.bash 
+  489  sudo nano database.bash 
+  490  sudo chmod +x database.bash 
+  491  sudo chmod +x database.bash 
+  492  sudo nano database.bash 
+  493  sudo chmod +x database.bash 
+  494  sudo nano database.bash 
+  495  sudo chmod +x database.bash 
+  496  sudo nano database.bash 
+  497  sudo chmod +x database.bash 
+  498  sudo nano database.bash 
+  499  sudo chmod +x database.bash 
+  500  sudo nano database.bash 
+  501  sudo service apache2 restart
+  502  clear
+  503  sudo nano database.bash 
+  504  clear
+  505  sudo nano database.bash 
+  506  sudo nano database.bash 
+  507  sudo chmod +x database.bash 
+  508  sudo nano database.bash 
+  509  ./database.bash 
+  510  sudo nano database.bash 
+  511  ./database.bash 
+  512  sudo chmod +x database.bash 
+  513  ./database.bash 
+  514  sudo nano database.bash 
+  515  ./database.bash 
+  516  sudo chmod +x database.bash 
+  517  ./database.bash 
+  518  whoami
+  519  sudo nano database.bash 
+  520  sudo chmod +x database.bash 
+  521  sudo nano database.bash 
+  522  ./database.bash 
+  523  sudo nano database.bash 
+  524  ./database.bash 
+  525  sudo chmod +x database.bash 
+  526  sudo nano database.bash 
+  527  sudo chmod +x database.bash 
+  528  sudo nano database.bash 
+  529  sudo chmod +x database.bash 
+  530  sudo nano database.bash 
+  531  sudo chmod +x database.bash 
+  532  ./database.bash 
+  533  sudo chmod +x database.bash 
+  534  sudo ./database.bash 
+  535  mysql -h localhost -u root -p
+  536  sudo mysql -h localhost -u root -p
+  537  CREATE USER 'ubuntu'@'localhost' IDENTIFIED BY 'ubuntu'
+  538  sudo mysql -h localhost -u root -p
+  539  sudo nano database.bash 
+  540  sudo ./database.bash 
+  541  sudo nano database.bash 
+  542  sudo ./database.bash 
+  543  mysql -h localhost -u root -p
+  544  sudo mysql -h localhost -u root -p
+  545  sudo nano database.bash 
+  546  sudo ./database.bash 
+  547  sudo mysql -h localhost -u root -p
+  548  sudo nano database.bash 
+  549  sudo ./database.bash 
+  550  sudo chmod +x database.bash 
+  551  sudo nano database.bash 
+  552  sudo chmod +x database.bash 
+  553  mysql -h localhost -u ubuntu -p
+  554  sudo mysql -h localhost -u ubuntu -p
+  555  sudo mysql -h localhost -u root -p
+  556  sudo mysql -h localhost -u ubuntu -p
+  557  sudo nano database.bash 
+  558  sudo chmod +x database.bash 
+  559  l
+  560  sudo nano database.bash 
+  561  sudo mysql -h localhost -u ubuntu -p
+  562  sudo nano database.bash 
+  563  sudo chmod +x database.bash 
+  564  sudo nano database.bash 
+  565  sudo chmod +x database.bash 
+  566  sudo nano database.bash 
+  567  sudo chmod +x database.bash 
+  568  clear
+  569  logout
+  570  ls
+  571  scp /home/mint/Desktop/hello.txt ubuntu@194.47.178.1<
+  572  ls
+  573  pwd
+  574  clear
+  575  scp /home/mint/Desktop/hello.txt ubuntu@194.47.178.17 /home/ubuntu
+  576  clear
+  577  scp /home/mint/Desktop/hello.txt ubuntu@194.47.178.17 /home/ubuntu
+  578  clear
+  579  sudo scp /home/mint/Desktop/hello.txt ubuntu@194.47.178.17:/home/ubuntu
+  580  ls
+  581  clear
+  582  ls
+  583  sudo systemctl status apache2
+  584  sudo systemctl start apache2
+  585  sudo systemctl status apache2
+  586  sudo systemctl stop apache2
+  587  sudo systemctl status apache2
+  588  sudo apt update
+  589  sudo apt upgrade -y
+  590  logout
+  591  sudo apt update
+  592  l
+  593  cat hello.txt 
+  594  logout
+  595  history
+  596  mysql -h localhost -u root -p
+  597  mysql -h localhost -u ubuntu -p
+  598  logout
+  599  sudo apt update
+  600  sudo apt upgrade -y
+  601  history
+
